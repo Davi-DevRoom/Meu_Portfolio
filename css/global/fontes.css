@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'JHCRasbora';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('../../assets/JHCRasbora-Extrabold.otf') format('woff');
+}
+
+:root{
+    --font-principal: "Inter", sans-serif;
+    --font-secondary: "Overpass", sans-serif;
+
+    --font-48px: 3rem;
+    --font-32px: 2rem;
+    --font-24px: 1.5rem;
+    --font-20px: 1.25rem;
+    --font-18px: 1.125rem;
+    --font-16px: 1rem;
+    --font-14px: 0.875rem;
+    --font-12px: 0.75rem;
+    --font-10px: 0.625rem;
+
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semiBold: 600;
+    --weight-bold: 700;
+    --weight-extraBold: 800;
+    --weight-Black: 900;
+}

@@ -1,0 +1,321 @@
+.home__page{
+     display: flex;
+    /*justify-content: space-around;
+    align-items: center; */
+}
+/* BACKGROUND HOME */
+.bg__home{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 43.75rem;
+    width: 95vw;
+    top: 21px;
+    background-color: #032E2C;
+    border-radius: 1.875rem;
+    z-index: 0;
+}
+
+.bg__home .top{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 55%;
+    height: 5.562rem;
+    background-color: #021B1A;
+    border-bottom-left-radius: 1.87rem;
+    border-bottom-right-radius: 1.87rem;
+}
+
+.bg__home .top::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2.37rem;
+    width: 2.37rem;
+    height: 1.87rem;
+    border-top-right-radius: 1.87rem;
+    background-color: transparent;
+    box-shadow: 0.625rem -0.4375rem 0 #021B1A;
+}
+
+.bg__home .top::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -2.37rem;
+    width: 2.37rem;
+    height: 1.87rem;
+    border-top-left-radius: 1.87rem;
+    background-color: transparent;
+    box-shadow: -0.625rem -0.4375rem 0 #021B1A;
+}
+
+.bg__home .bottom{
+    display: block;
+    position: relative;
+    margin: 0;
+    width: 34.68rem;
+    height: 8rem;
+    background-color: #021B1A;
+    border-top-right-radius: 1.87rem;
+}
+
+.bg__home .bottom::before{
+    content: '';
+    position: absolute;
+    top: -2.43rem;
+    left: 0;
+    width: 1.87rem;
+    height: 2.43rem;
+    border-bottom-left-radius: 1.87rem;
+    background-color: transparent;
+    box-shadow: -0.43rem 0.68rem 0 #021B1A;
+}
+
+.bg__home .bottom::after{
+    content: '';
+    position: absolute;
+    top: 5.59rem;
+    right: -1.87rem;
+    width: 1.87rem;
+    height: 2.43rem;
+    border-bottom-left-radius: 1.87rem;
+    background-color: transparent;
+    box-shadow: -0.43rem 0.68rem 0 #021B1A;
+}
+/* FIM BACKGROUND HOME */
+.navbar{
+    height: 0;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2.5rem;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+.nav-list li a{
+    color: var(--font-cl-white);
+    font-size: var(--font-18px);
+    font-weight: 500;
+}
+
+/* CARD HOME */
+.card__home{
+    position: relative;
+    z-index: 1;
+    width: 20.37rem;
+    height: 35.37rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title__card{
+    color: var(--font-cl-white);
+    font-family: 'JHCRasbora';
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image__card{
+    margin: 1.5rem 0;
+}
+
+.content__card{
+    color: var(--font-cl-white);
+}
+
+.content__card h3{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.content__card p{
+    font-size: 0.87rem;
+    font-weight: 400;
+    width: 14.75rem;
+    text-align: center;
+    margin-top: 1.12rem;
+    margin-bottom: 1.5rem;
+}
+
+.redes__sociais{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.87rem;
+}
+
+.redes__sociais li{
+    width: 3.12rem;
+    height: 3.12rem;
+    border-radius: 50%;
+    border: 1px solid #81F28D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.redes__sociais li:hover{
+    transform: scale(1.1);
+}
+
+.redes__sociais li i{
+    color: #81F28D;
+}
+
+.card__home .btn{
+    background: linear-gradient(to right, #01FBA1 0%, #38f9d7 100%);
+    color: #0A2018;
+    padding: 1.25rem 2.56rem;
+    margin: 1.5rem 0;
+    width: 15rem;
+    border-radius: 1.87rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.card__home .btn:hover{
+    box-shadow: 1px 1px 2px var(--main-color);
+    background: linear-gradient(to right, #15e699 0%, #38f9d7 100%);
+}
+
+.card__home .btn:focus{
+    color: var(--font-cl-white);
+}
+/* FIM CARD HOME */
+
+/* CONTENT HOME */
+.content__home{
+    position: relative;
+    top: 4.68rem;
+    left: 3.75rem;
+    margin-top: 2.5rem;
+    z-index: 1;
+    color: var(--font-cl-white);
+}
+
+.presentation__home p{
+    font-size: 0.87rem;
+    line-height: 1;
+    color: rgba(250, 245, 238, 70%);
+    margin-bottom: 0.87rem;
+    font-weight: 500;
+}
+
+.presentation__home h3{
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.presentation__home h1{
+    font-size: 4.37rem;
+    color: #FAF5EE;
+    margin-bottom: 0.25rem;
+    line-height: 1;
+    font-weight: 800;
+    text-align: end;
+}
+
+.presentation__resume{
+    padding-top: 0.5rem;
+    width: 23.56rem;
+    font-size: 1.12rem;
+}
+
+.presentation__hardskills{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.62rem;
+}
+
+.presentation__hardskills div img{
+    width: 3.85rem;
+    height: 3.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(1);
+}
+
+.presentation__hardskills div img:hover{
+    filter: grayscale(0);
+}
+/* FIM CONTENT HOME */
+
+/* INDICE HOME */
+.indice__home{
+    position: relative;
+    left: 15rem;
+    top: 24px;
+    z-index: 1;
+}
+
+.indice__home .btn{
+    background: linear-gradient(to right, #01FBA1 0%, #38f9d7 100%);
+    color: #0A2018;
+    padding: 1.25rem 2.56rem;
+    border-radius: 1.87rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.indice__home .btn:hover{
+    box-shadow: 1px 1px 2px var(--main-color);
+    background: linear-gradient(to right, #15e699 0%, #38f9d7 100%);
+}
+
+.indice__home .btn:focus{
+    color: var(--font-cl-white);
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: var(--font-cl-white);
+    margin-top: 5rem;
+}
+
+.index h1{
+    font-size: 12.2rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 35%);
+    font-family: var(--font-secondary);
+}
+
+.index p{
+    font-size: var(--font-24px);
+    line-height: 1;
+    text-align: end;
+    margin-top: -2rem;
+    font-family: var(--font-secondary);
+}
+
+/* FIM INDICE HOME */

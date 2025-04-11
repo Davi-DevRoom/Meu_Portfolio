@@ -1,0 +1,42 @@
+
+.about__me{
+    position: relative;
+    margin-top: 10rem;
+    width: 95vw;
+    height: 90vh;
+    background-color: #032E2C;
+    border-radius: 30px;
+}
+
+.about__me .bottom{
+    display: block;
+    position: relative;
+    width: 34.68rem;
+    height: 128px;
+    background-color: #021B1A;
+    border-bottom-right-radius: 30px;
+}
+
+.about__me .bottom::before{
+    content: '';
+    position: absolute;
+    bottom: -31px;
+    left: 0px;
+    width: 38px;
+    height: 30px;
+    border-top-left-radius: 30px;
+    background-color: transparent;
+    box-shadow: -10px -7px 0 #021B1A;
+}
+
+.about__me .bottom::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -38px;
+    width: 38px;
+    height: 30px;
+    border-top-left-radius: 30px;
+    background-color: transparent;
+    box-shadow: -10px -7px 0 #021B1A;
+}

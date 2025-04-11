@@ -1,0 +1,21 @@
+html {
+    scrollbar-color: var(--main-color);
+}
+
+html ::-webkit-scrollbar-track {
+    background: var(--bg-body);
+    width: 6px;
+    height: 6px;
+}
+
+html::-webkit-scrollbar {
+    width: 6px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+}
+  
