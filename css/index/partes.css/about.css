@@ -1,9 +1,9 @@
 
 .about__me{
-    position: relative;
+    position: absolute;
     margin-top: 10rem;
     width: 95vw;
-    height: 90vh;
+    height: 40.5rem;
     background-color: #032E2C;
     border-radius: 30px;
 }
@@ -39,4 +39,83 @@
     border-top-left-radius: 30px;
     background-color: transparent;
     box-shadow: -10px -7px 0 #021B1A;
+}
+
+.about__container{
+    display: flex;
+    gap: 9.25rem;
+}
+
+.image__about{
+    margin: 5rem 0 0 4.81rem;
+}
+
+.container__about{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -5rem;
+}
+
+.content__about{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title__about{
+    font-size: 3.75rem;
+    color: rgba(255, 255, 255, 50%);
+    font-weight: 500;
+    position: relative;
+}
+
+.title__about::before{
+    content: '';
+    position: absolute;
+    bottom: -0.6rem;
+    width: 6.25rem;
+    height: 0.25rem;
+    background-color: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.text__about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-cl-white);
+    font-size: var(--font-24px);
+    font-weight: 400;
+    width: 41.62rem;
+    position: relative;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.separator{
+    width: 20rem;
+    height: 4px;
+    background: var(--main-color);
+    margin-top: 22px;
+    border-radius: 0.2rem;
+}
+
+.education__about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.education__about div p{
+    color: var(--font-cl-white);
+    font-size: 1.37rem;
+}
+
+.education__about div p span{
+    color: var(--font-cl-gray);
+    font-size: 1.37rem;
 }
