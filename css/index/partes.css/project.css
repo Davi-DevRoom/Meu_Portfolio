@@ -1,0 +1,117 @@
+.project__section{
+    width: 1450px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.container__projects{
+    height: 620px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.card__project{
+    width: 95px;
+    height: 640px;
+    background: var(--bg-section);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    overflow: hidden;
+    color: var(--font-cl-white);
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 30px;
+    transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+}
+
+.card__project__content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+}
+
+.container__projects input{
+    display: none;
+}
+
+.container__projects input:checked + label{
+    width: 400px;
+}
+
+
+.image__project img{
+    width: 360px;
+    height: 295px;
+}
+
+.tool__tags{
+    width: 200px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.tool{
+    padding: 5px 10px;
+    border-radius: 2rem;
+}
+
+.figma{
+    background: #2383AE;
+}
+
+.html{
+    background: #0074BD;
+}
+
+.css{
+    background: #A259FF;
+}
+
+.js{
+    background: #F0DB4F;
+}
+
+
+
+.content__project{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 18px;
+    flex-wrap: nowrap;
+}
+
+.content__project h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.content__project p{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button a{
+    font-size: 14px;
+    font-weight: 400px;
+}
