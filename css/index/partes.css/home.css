@@ -1,7 +1,12 @@
 .home__page{
-     display: flex;
-    /*justify-content: space-around;
-    align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.container__home{
+    width: 90.6rem;
+    display: flex;
+    justify-content: flex-start;
 }
 /* BACKGROUND HOME */
 .bg__home{
@@ -10,8 +15,8 @@
     flex-direction: column;
     justify-content: space-between;
     height: 43.75rem;
-    width: 95vw;
-    top: 21px;
+    width: 90.6rem;
+    top: 1.3rem;
     background-color: #032E2C;
     border-radius: 1.875rem;
     z-index: 0;
@@ -121,7 +126,6 @@
     width: 80%;
     transition: width 0.3s linear;
 } 
-
 
 /* CARD HOME */
 .card__home{

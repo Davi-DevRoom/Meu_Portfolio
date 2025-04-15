@@ -1,11 +1,17 @@
+.about__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11rem;
+}
 
 .about__me{
     position: absolute;
-    margin-top: 10rem;
-    width: 95vw;
+    width: 90.6rem;
     height: 40.5rem;
     background-color: #032E2C;
     border-radius: 30px;
+    z-index: 0;
 }
 
 .about__me .bottom{
@@ -42,19 +48,25 @@
 }
 
 .about__container{
+    width: 90.6rem;
+    height: 40.5rem;
     display: flex;
-    gap: 9.25rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    z-index: 1;
 }
 
 .image__about{
-    margin: 5rem 0 0 4.81rem;
+   position: relative;
+   right: 8rem;
+   top: 4rem;
 }
 
 .container__about{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-top: -5rem;
 }
 
 .content__about{
