@@ -1,50 +1,71 @@
 .project__section{
-    width: 1450px;
-    height: 700px;
+    width: 90.6rem;
+    height: 43.7rem;
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
-
-.container__projects{
-    height: 620px;
+.gallery__projects{
+    height: 38.7rem;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
     gap: 2rem;
 }
 
-.card__project{
-    width: 95px;
-    height: 640px;
-    background: var(--bg-section);
+.slide__container{
     display: flex;
     flex-direction: column;
     align-items: start;
     overflow: hidden;
+    width: 6rem;
+    height: 40rem;
+    background: var(--bg-section);
+    padding: 1.25rem;
+    gap: 2.5rem;
     color: var(--font-cl-white);
     cursor: pointer;
-    padding: 20px;
-    border-radius: 30px;
+    border-radius: 1.8rem;
     transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+    position: relative;
 }
 
-.card__project__content{
+.slide__container__project{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: start;
 }
 
-.container__projects input{
+.slide__container:after{
+	content:"";
+    width: 3px;
+    height: 4rem;
+    position: absolute;
+    left: -1px;
+    top: 70%;
+    transition: top, opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    background: linear-gradient(transparent, 
+					var(--main-color), 
+					transparent);
+    opacity: 0;
+}
+
+.slide__container:hover:after{
+    top: 50%;
+    opacity: 1;
+}
+
+.gallery__projects input{
     display: none;
 }
 
-.container__projects input:checked + label{
+.gallery__projects input:checked + label{
     width: 400px;
 }
-
 
 .image__project img{
     width: 360px;
@@ -52,7 +73,7 @@
 }
 
 .tool__tags{
-    width: 200px;
+    width: 300px;
     margin-top: 4px;
     margin-bottom: 10px;
     display:flex;
@@ -66,11 +87,11 @@
 }
 
 .figma{
-    background: #2383AE;
+    background: #1ABCFE;
 }
 
 .html{
-    background: #0074BD;
+    background: #E44D26;
 }
 
 .css{
@@ -81,7 +102,18 @@
     background: #F0DB4F;
 }
 
+.git{
+    background: #F03C2E;
+}
 
+.github{
+    background: #000;
+}
+
+
+.tailwind{
+    background: #6DD7B9;
+}
 
 .content__project{
     display: flex;
@@ -99,7 +131,7 @@
 .content__project p{
     font-size: 14px;
     font-weight: 400;
-    
+    height: 95px;
 }
 
 
