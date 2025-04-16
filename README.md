@@ -1,6 +1,6 @@
 # Meu_Portfolio
 
-- Este projeto é o meu portfólio pessoal. Este projeto tem como caracteristica destacar as tecnologias com as quais trabalho e destacar os projetos que ja realizei. Fique a vontate para ver o codigo e saber mais sobre o projeto.
+- Este projeto é o meu portfólio pessoal, desenvolvido para apresentar as tecnologias com as quais trabalho e destacar os projetos que já realizei. Sinta-se à vontade para explorar o código e conhecer mais sobre o projeto.
 
 <img src="assets/Readme-img.png">
 
