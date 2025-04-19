@@ -1,0 +1,35 @@
+.navbar{
+    height: 0;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2.5rem;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+.nav-list li a{
+    color: var(--font-cl-white);
+    font-size: var(--font-18px);
+    font-weight: 500;
+}
+
+.nav-list li a:after{
+    content: '';
+    margin: 4px auto 0;
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: var(--main-color);
+    border-radius: 2px;
+}
+
+.nav-list li a:hover:after{
+    width: 80%;
+    transition: width 0.3s linear;
+}
