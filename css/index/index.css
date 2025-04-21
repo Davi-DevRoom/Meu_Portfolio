@@ -1,5 +1,6 @@
 @import '../global/global.css';
 
+@import './partes.css/navbar.css';
 @import './partes.css/home.css';
 @import './partes.css/about.css';
 @import './partes.css/project.css';
