@@ -1,6 +1,7 @@
 :root{
     --bg-body: #021B1A;
     --bg-section: #032E2C;
+    --main-gradient: linear-gradient(to right, #15e699 0%, #38f9d7 100%);
 
     --main-color: #01FBA1;
 

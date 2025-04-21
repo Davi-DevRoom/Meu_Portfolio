@@ -272,28 +272,4 @@
     top: 24px;
     z-index: 1;
 }
-
-.index{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    color: var(--font-cl-white);
-    margin-top: 5rem;
-}
-
-.index h1{
-    font-size: 12.2rem;
-    line-height: 1;
-    color: rgba(255, 255, 255, 35%);
-    font-family: var(--font-secondary);
-}
-
-.index p{
-    font-size: var(--font-24px);
-    line-height: 1;
-    text-align: end;
-    margin-top: -2rem;
-    font-family: var(--font-secondary);
-}
-
 /* FIM INDICE HOME */

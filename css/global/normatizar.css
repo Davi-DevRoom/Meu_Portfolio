@@ -121,3 +121,35 @@ button::-moz-focus-inner,
 .btn:focus{
     color: var(--font-cl-white);
 }
+
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: var(--font-cl-white);
+    font-family: var(--font-secondary);
+    margin-top: 5rem;
+}
+
+.index h1{
+    font-size: 12.2rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 35%);
+}
+
+.index p{
+    font-size: var(--font-24px);
+    line-height: 1;
+    text-align: end;
+    margin-top: -2rem;
+}
+
+.index div span{
+    font-size: 12px;
+    padding: 16px 30px;
+    border: 1px solid var(--font-cl-white);
+    border-radius: 1.87rem;
+    color: var(--font-cl-white);
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}

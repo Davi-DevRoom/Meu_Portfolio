@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 11rem;
+    position: relative;
 }
 
 .about__me{
@@ -131,3 +132,17 @@
     color: var(--font-cl-gray);
     font-size: 1.37rem;
 }
+
+.about__section .index{
+    position: absolute;
+    top: -12rem;
+    left: 5rem;
+    z-index: 1;
+}
+
+.about__section .index div {
+    display: flex;
+    align-items: end;
+    color: var(--font-cl-white);
+}
+
