@@ -1,0 +1,115 @@
+.skills__section{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__section h2{
+    color: var(--font-cl-white);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.container__sect-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    margin-top: 2.8rem;
+}
+
+.container__skills{
+    display: flex;
+    gap: 0.75rem;
+}
+
+.content__skills{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.skills__1, .skills__2{
+    display: flex;
+    gap: 0.75rem;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5rem;
+    height: 17.5rem;
+    background-color: var(--bg-section);
+    border-radius: 0.93rem;
+    border: 1px solid var(--main-color);
+}
+
+.skill img{
+    width: 5.62rem;
+    height: 5.62rem;
+}
+
+.content__skills_exp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 27.5rem;
+    color: var(--font-cl-white);
+    background-color: var(--bg-section);
+    border-radius: 0.93rem;
+    border: 1px solid var(--main-color);
+}
+
+.year__exp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+}
+
+.year__exp span{
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.year__exp h3{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.add__container_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80.5rem;
+    height: 20rem;
+    gap: 4.7rem;
+    color: var(--font-cl-white);
+    background-color: var(--bg-section);
+    border-radius: 0.93rem;
+    border: 1px solid var(--main-color);
+}
+
+.add__container_skills h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.add__skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.add__skills img{
+    width: 5.62rem;
+    height: 5.62rem;
+}
