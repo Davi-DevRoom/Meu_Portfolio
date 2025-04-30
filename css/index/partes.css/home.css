@@ -1,8 +1,4 @@
-.home__section{
-    display: flex;
-    justify-content: center;
-}
-
+/* HOME SECTION*/
 .container__home{
     width: 90.6rem;
     display: flex;
@@ -93,7 +89,6 @@
 
 /* CARD HOME */
 .card__home{
-    position: relative;
     z-index: 1;
     width: 20.37rem;
     height: 35.37rem;
@@ -220,7 +215,6 @@
 .presentation__hardskills div img:hover{
     filter: grayscale(0);
 }
-
 /* FIM CONTENT HOME */
 
 /* INDICE HOME */
@@ -229,7 +223,6 @@
     left: 15rem;
     top: 1.5rem;
     z-index: 1;
-    
 }
 
 .index{
@@ -254,5 +247,4 @@
     margin-top: -2rem;
     font-family: var(--font-secondary);
 }
-
 /* FIM INDICE HOME */

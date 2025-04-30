@@ -1,3 +1,4 @@
+/* ABOUT SECTION */
 .about__section{
     display: flex;
     align-items: center;
@@ -6,6 +7,7 @@
     position: relative;
 }
 
+/* BACKGROUND */
 .bg__about{
     position: absolute;
     width: 90.6rem;
@@ -47,7 +49,9 @@
     border-top-left-radius: 1.87rem;
     box-shadow: -10px -7px 0 #021B1A;
 }
+/* FIM BACKGROUND */
 
+/* ABOUT CONTAINER */
 .about__container{
     width: 90.6rem;
     height: 40.5rem;
@@ -113,7 +117,7 @@
     width: 20rem;
     height: 4px;
     background: var(--main-color);
-    margin-top: 22px;
+    margin-top: 1.37rem;
     border-radius: 0.2rem;
 }
 
@@ -145,4 +149,4 @@
     align-items: end;
     color: var(--font-cl-white);
 }
-
+/* FIM ABOUT CONTAINER */
