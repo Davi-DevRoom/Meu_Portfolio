@@ -1,0 +1,91 @@
+.education__section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 80rem;
+    position: relative;
+}
+
+.education__section h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.education__section .index{
+    position: absolute;
+    top: -5rem;
+    right: 5rem;
+    z-index: 1;
+}
+
+.education__section .index div {
+    display: flex;
+    align-items: end;
+}
+
+.container__education{
+    display: flex;
+    
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.content__education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.course__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    position: relative;
+    border-left: 1px solid var(--font-cl-gray);
+    padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.course__content::before{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #656565;
+    border-radius: 50%;
+    left: -6px;
+    top: 0;
+    transition: .3s;
+}
+
+.date-course{
+    color: var(--font-cl-gray);
+}
+
+.course__content:hover{
+    border-left: 1px solid var(--main-color);
+}
+
+.course__content:hover::before {
+    background-color: var(--main-color);
+}
+
+.course__content:hover  .date-course{
+    color: var(--main-color);
+}
+
+.course{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.course h1{
+    font-size: var(--font-32px);
+    font-weight: 400;
+}
+
+.course p{
+    font-size: var(--font-14px);
+    font-weight: 400;
+    color: var(--font-cl-gray);
+}
