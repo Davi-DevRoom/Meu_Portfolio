@@ -30,6 +30,7 @@ body {
     background-color: var(--bg-body);
     scroll-behavior: smooth;
     font-family: var(--font-principal);
+    color: var(--font-cl-white);
 }
 
 a,img,svg,button {
@@ -127,7 +128,6 @@ button::-moz-focus-inner,
     display: flex;
     flex-direction: column;
     justify-content: end;
-    color: var(--font-cl-white);
     font-family: var(--font-secondary);
     margin-top: 5rem;
 }
@@ -146,11 +146,10 @@ button::-moz-focus-inner,
 }
 
 .index div span{
-    font-size: 12px;
-    padding: 16px 30px;
-    border: 1px solid var(--font-cl-white);
+    font-size: 0.75rem;
+    padding: 1rem 1.87rem;
+    border: 1px solid rgba(255, 255, 255, 35%);
     border-radius: 1.87rem;
-    color: var(--font-cl-white);
     margin-bottom: 3rem;
     margin-left: 1rem;
 }

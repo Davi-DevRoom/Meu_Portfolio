@@ -19,54 +19,50 @@
     z-index: 0;
 }
 
-.bg__home .top{
+.bg__home .top, .bottom{
     display: block;
     position: relative;
+    background-color: var(--bg-body);
+}
+
+.bg__home .top{
     margin: 0 auto;
     width: 55%;
     height: 5.56rem;
-    background-color: var(--bg-body);
     border-bottom-left-radius: 1.87rem;
     border-bottom-right-radius: 1.87rem;
 }
 
-.bg__home .top::before{
+.bg__home .top::after, .top::before{
     content: '';
     position: absolute;
-    top: 0;
-    left: -2.37rem;
     width: 2.37rem;
     height: 1.87rem;
+}
+
+.bg__home .top::before{
+    left: -2.37rem;
     border-top-right-radius: 1.87rem;
-    box-shadow: 0.625rem -0.4375rem 0 #021B1A;
+    box-shadow: 0.625rem -0.4375rem #021B1A;
 }
 
 .bg__home .top::after{
-    content: '';
-    position: absolute;
-    top: 0;
+    top: 0px;
     right: -2.37rem;
-    width: 2.37rem;
-    height: 1.87rem;
     border-top-left-radius: 1.87rem;
-    box-shadow: -0.625rem -0.4375rem 0 #021B1A;
+    box-shadow: -0.625rem -0.4375rem #021B1A;
 }
 
 .bg__home .bottom{
-    display: block;
-    position: relative;
     margin: 0;
     width: 34.68rem;
     height: 8rem;
-    background-color: var(--bg-body);
     border-top-right-radius: 1.87rem;
 }
 
-.bg__home .bottom::before{
+.bg__home .bottom::before, .bottom::after{
     content: '';
     position: absolute;
-    top: -2.43rem;
-    left: 0;
     width: 1.87rem;
     height: 2.43rem;
     border-bottom-left-radius: 1.87rem;
@@ -74,16 +70,14 @@
     box-shadow: -0.43rem 0.68rem 0 #021B1A;
 }
 
+.bg__home .bottom::before{
+    top: -2.43rem;
+    left: 0;
+}
+
 .bg__home .bottom::after{
-    content: '';
-    position: absolute;
     top: 5.6rem;
     right: -1.87rem;
-    width: 1.87rem;
-    height: 2.43rem;
-    border-bottom-left-radius: 1.87rem;
-    background-color: transparent;
-    box-shadow: -0.43rem 0.68rem 0 #021B1A;
 }
 /* FIM BACKGROUND */
 
@@ -94,24 +88,20 @@
     height: 35.37rem;
     display: flex;
     flex-direction: column;
-    color: var(--font-cl-white);
+    padding: 1.5rem;
 }
 
-.title__card{
+.logo__card{
     font-family: 'JHCRasbora';
     font-size: 1.75rem;
-    margin: 1.5rem 0 0 1.5rem;
 }
 
 .card__content{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.image__card{
-    margin: 1.5rem 0;
+    place-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .content__card h3{
@@ -125,14 +115,12 @@
     font-weight: 400;
     text-align: center;
     margin-top: 1.12rem;
-    margin-bottom: 1.5rem;
 }
 
 .redes__sociais{
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     gap: 0.87rem;
 }
 
@@ -154,11 +142,6 @@
 .redes__sociais li i{
     color: var(--main-color);
 }
-
-.card__content .btn{
-    margin-top: 1.5rem;
-}
-
 /* FIM CARD HOME */
 
 /* CONTENT HOME */
@@ -168,7 +151,6 @@
     left: 3.75rem;
     margin-top: 2.5rem;
     z-index: 1;
-    color: var(--font-cl-white);
     line-height: 1;
 }
 
@@ -223,28 +205,5 @@
     left: 15rem;
     top: 1.5rem;
     z-index: 1;
-}
-
-.index{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    color: var(--font-cl-white);
-    margin-top: 5rem;
-}
-
-.index h1{
-    font-size: 12.2rem;
-    line-height: 1;
-    color: rgba(255, 255, 255, 35%);
-    font-family: var(--font-secondary);
-}
-
-.index p{
-    font-size: var(--font-24px);
-    line-height: 1;
-    text-align: end;
-    margin-top: -2rem;
-    font-family: var(--font-secondary);
 }
 /* FIM INDICE HOME */

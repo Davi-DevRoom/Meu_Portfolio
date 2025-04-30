@@ -26,30 +26,36 @@
     border-bottom-right-radius: 1.87rem;
 }
 
-.bg__about .top::before{
+.bg__about .top::before, .top::after{
     content: '';
     position: absolute;
-    bottom: -1.9rem;
     width: 2.37rem;
     height: 1.87rem;
+    bottom: -1.9rem;
     background-color: transparent;
     border-top-left-radius: 1.87rem;
-    box-shadow: -10px -7px 0 #021B1A;
+    box-shadow: -10px -7px #021B1A;
 }
 
 .bg__about .top::after{
-    content: '';
-    position: absolute;
     top: 0px;
     right: -2.37rem;
-    bottom: -1.9rem;
-    width: 2.37rem;
-    height: 1.87rem;
-    background-color: transparent;
-    border-top-left-radius: 1.87rem;
-    box-shadow: -10px -7px 0 #021B1A;
 }
 /* FIM BACKGROUND */
+
+/* INDEX */
+.about__section .index{
+    position: absolute;
+    top: -12rem;
+    left: 5rem;
+    z-index: 1;
+}
+
+.about__section .index div {
+    display: flex;
+    align-items: end;
+}
+/* FIM INDEX */
 
 /* ABOUT CONTAINER */
 .about__container{
@@ -68,13 +74,7 @@
    top: 4rem;
 }
 
-.container__about{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.content__about{
+.container__about, .content__about{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -102,7 +102,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--font-cl-white);
     font-size: var(--font-24px);
     font-weight: 400;
     width: 41.62rem;
@@ -115,7 +114,7 @@
 
 .separator{
     width: 20rem;
-    height: 4px;
+    height: 0.25rem;
     background: var(--main-color);
     margin-top: 1.37rem;
     border-radius: 0.2rem;
@@ -128,25 +127,11 @@
 }
 
 .education__about div p{
-    color: var(--font-cl-white);
     font-size: 1.37rem;
 }
 
 .education__about div p span{
     color: var(--font-cl-gray);
     font-size: 1.37rem;
-}
-
-.about__section .index{
-    position: absolute;
-    top: -12rem;
-    left: 5rem;
-    z-index: 1;
-}
-
-.about__section .index div {
-    display: flex;
-    align-items: end;
-    color: var(--font-cl-white);
 }
 /* FIM ABOUT CONTAINER */

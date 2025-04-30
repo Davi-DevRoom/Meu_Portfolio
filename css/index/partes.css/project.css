@@ -1,3 +1,18 @@
+/* INDEX*/
+.project__section .index{
+    position: absolute;
+    top: -3rem;
+    left: 5rem;
+    z-index: 1;
+}
+
+.project__section .index div {
+    display: flex;
+    align-items: end;
+}
+/* FIM INDEX*/
+
+
 /* PROJECTS SECTION */
 .project__section{
     width: 90.6rem;
@@ -7,7 +22,9 @@
     justify-content: end;
     position: relative;
 }
+/* FIM PROJECTS SECTION */
 
+/* GALLERY PROJECTS */
 .gallery__projects{
     height: 38.7rem;
     display: flex;
@@ -27,7 +44,6 @@
     background: var(--bg-section);
     padding: 1.25rem;
     gap: 2.5rem;
-    color: var(--font-cl-white);
     cursor: pointer;
     border-radius: 1.8rem;
     transition: .6s cubic-bezier(.28, -0.03, 0, .99);
@@ -42,7 +58,7 @@
 }
 
 .slide__container:after{
-	content:"";
+	content: "";
     width: 3px;
     height: 4rem;
     position: absolute;
@@ -67,25 +83,25 @@
 }
 
 .gallery__projects input:checked + label{
-    width: 400px;
+    width: 25rem;
 }
 
 .image__project img{
-    width: 360px;
-    height: 295px;
+    width: 22.5rem;
+    height: 18.4rem;
 }
 
 .tool__tags{
-    width: 300px;
-    margin-top: 4px;
-    margin-bottom: 10px;
-    display:flex;
+    width: 18.75rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.62rem;
+    display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 0.25rem;
 }
 
 .tool{
-    padding: 5px 10px;
+    padding: 0.3rem 0.62rem;
     border-radius: 2rem;
 }
 
@@ -122,17 +138,17 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 18px;
+    gap: 1.1rem;
     flex-wrap: nowrap;
 }
 
 .content__project h2{
-    font-size: 22px;
+    font-size: 1.37rem;
     font-weight: 700;
 }
 
 .content__project p{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400;
     height: 95px;
 }
@@ -143,23 +159,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .button a{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 400px;
 }
-
-.project__section .index{
-    position: absolute;
-    top: -3rem;
-    left: 5rem;
-    z-index: 1;
-}
-
-.project__section .index div {
-    display: flex;
-    align-items: end;
-    color: var(--font-cl-white);
-}
+/* FIM GALLERY PROJECTS */
