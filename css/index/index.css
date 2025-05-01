@@ -1,8 +1,10 @@
 @import '../global/global.css';
 
-@import './partes.css/navbar.css';
-@import './partes.css/home.css';
-@import './partes.css/about.css';
-@import './partes.css/project.css';
-@import './partes.css/skills.css';
+@import './partes.css/section-navbar.css';
+@import './partes.css/section-home.css';
+@import './partes.css/section-about.css';
+@import './partes.css/section-project.css';
+@import './partes.css/section-skills.css';
 @import './partes.css/section-education.css';
+@import './partes.css/section-contact.css';
+@import './partes.css/section-footer.css';

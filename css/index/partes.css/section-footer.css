@@ -1,0 +1,14 @@
+.footer .credit{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+    color: var(---font-cl-white);
+    border-top: .2rem solid var(--font-cl-darkgray);
+}
+
+.footer .credit .link{
+    color: var(--main-color);
+    font-family: 'JHCRasbora';
+}
+  
