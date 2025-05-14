@@ -207,3 +207,61 @@
     z-index: 1;
 }
 /* FIM INDICE HOME */
+
+
+@media (max-width: 480px){
+    .home__section{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg__home{
+        position: absolute;
+        height: 82rem;
+        width: 45rem;
+        top: 2rem;
+    }
+
+    .bg__home .top, 
+    .bottom{
+        display: none;
+    }
+
+    .container__home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__home{
+        width: 25rem;
+        height: 45rem;
+        align-items: start;
+        justify-content: center;
+        padding: 0rem;
+        margin-top: 2rem;
+    }
+
+    .content__home{
+        top: 0rem;
+        left: 0rem;
+    }
+
+    .indice__home{
+        left: 0rem;
+        top: 2.5rem;
+    }
+
+    .indice__home .btn{
+        padding: 2.45rem 5.12rem;
+        width: 30rem;
+        border-radius: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .indice__home .index{
+        display: none;
+    }
+}

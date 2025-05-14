@@ -135,3 +135,57 @@
     font-size: 1.37rem;
 }
 /* FIM ABOUT CONTAINER */
+
+
+@media (max-width: 480px){
+    .about__section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__section .index{
+        display: none;
+    }
+
+    .bg__about{
+        position: absolute;
+        height: 90rem;
+        width: 45rem;
+    }
+
+    .bg__about .top{
+        display: none;
+    }
+
+    .about__container{
+        height: 90.6rem;
+        width: 40.5rem;
+        flex-direction: column-reverse;
+        margin-left: 0rem;
+        gap: 3rem;
+    }
+
+    .about__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content__about .btn{
+        padding: 2.45rem 5.12rem;
+        width: 30rem;
+        border-radius: 4rem;
+        font-size: 1.5rem;
+    }
+    .image__about{
+        position: relative;
+        right: 0rem;
+        top: 0rem;
+    }
+
+    .image__about img{
+        width: 100%;
+    }
+    
+}

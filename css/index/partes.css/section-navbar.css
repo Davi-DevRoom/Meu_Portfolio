@@ -33,3 +33,12 @@
     width: 80%;
     transition: width 0.3s linear;
 }
+
+
+@media (max-width: 480px){
+    .nav-list
+    {
+        display: none;
+    }
+
+}
