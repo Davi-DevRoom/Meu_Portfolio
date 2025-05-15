@@ -167,3 +167,37 @@
     font-weight: 400px;
 }
 /* FIM GALLERY PROJECTS */
+@media (max-width: 480px){
+    .project__section .index{
+        position: absolute;
+        left: 0rem;
+        z-index: 1;
+    }
+
+    .project__section{
+        width: 45rem;
+        height: 55.6rem;
+        justify-content: center;
+    }
+
+    .gallery__projects{
+        margin-top: 20rem;
+        height: 40.7rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: auto hidden;
+    }
+
+    .slide__container{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        overflow: visible;
+        width: 25rem;
+        height: 40rem;
+    }
+
+    .button{
+        margin-top: -4rem;
+    }
+}

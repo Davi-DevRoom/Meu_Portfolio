@@ -47,6 +47,7 @@
     height: 5.62rem;
 }
 
+/* CONTENT YEAR EXP */
 .content__skills_exp{
     display: flex;
     flex-direction: column;
@@ -77,6 +78,9 @@
     font-weight: 400;
 }
 
+/* FIM CONTENT YEAR EXP */
+
+/* SKILLS ADDITIONAL */
 .add__container_skills{
     display: flex;
     flex-direction: column;
@@ -105,4 +109,44 @@
 .add__skills img{
     width: 5.62rem;
     height: 5.62rem;
+}
+/* FIM SKILLS ADDITIONAL */
+
+
+
+@media (max-width: 480px){
+    .skills__section{
+        margin-left: -2.5rem;
+    }
+
+    .container__sect-skills{
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .container__skills{
+        flex-direction: column;
+    }
+
+    .content__skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill{
+        width: 9.5rem;
+        height: 14.5rem;
+    }
+
+    .content__skills_exp{
+        gap: 2rem;
+        width: 40rem;
+        padding-bottom: 1rem
+    }
+
+    .add__container_skills{
+        width: 40rem; 
+    }
+
 }
