@@ -211,16 +211,22 @@
 
 @media (max-width: 480px){
     .home__section{
-        width: 45rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
     }
 
+    /* HOME SECTION*/
+    .container__home{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* BACKGROUND */
     .bg__home{
         position: absolute;
-        height: 82rem;
-        width: 45rem;
+        width: 90%;
+        height: 95%;
         top: 2rem;
     }
 
@@ -229,24 +235,22 @@
         display: none;
     }
 
-    .container__home{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     .card__home{
         width: 25rem;
-        height: 45rem;
+        height: 100%;
         align-items: start;
         justify-content: center;
         padding: 0rem;
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
 
     .content__home{
         top: 0rem;
         left: 0rem;
+    }
+
+    .presentation__home h1{
+        text-align: center;
     }
 
     .indice__home{

@@ -116,7 +116,9 @@
 
 @media (max-width: 480px){
     .skills__section{
-        margin-left: -2.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .container__sect-skills{
@@ -141,12 +143,13 @@
 
     .content__skills_exp{
         gap: 2rem;
-        width: 40rem;
+        width: 100%;
         padding-bottom: 1rem
     }
 
     .add__container_skills{
-        width: 40rem; 
+        width: 100%;
+
     }
 
 }

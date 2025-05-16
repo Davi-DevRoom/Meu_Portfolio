@@ -139,9 +139,8 @@
 
 @media (max-width: 480px){
     .about__section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100vw;
+        margin-top: 10rem;
     }
 
     .about__section .index{
@@ -150,8 +149,8 @@
 
     .bg__about{
         position: absolute;
-        height: 90rem;
-        width: 45rem;
+        height: 95%;
+        width: 90%;
     }
 
     .bg__about .top{
@@ -160,10 +159,15 @@
 
     .about__container{
         height: 90.6rem;
-        width: 40.5rem;
+        width: 90%;
         flex-direction: column-reverse;
         margin-left: 0rem;
+        padding: 0rem 2rem;
         gap: 3rem;
+    }
+
+    .text__about{
+        width: 100%;
     }
 
     .about__btn{
@@ -178,14 +182,18 @@
         border-radius: 4rem;
         font-size: 1.5rem;
     }
+
     .image__about{
-        position: relative;
+        position: relative; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
         right: 0rem;
         top: 0rem;
     }
 
     .image__about img{
-        width: 100%;
+        width: 90%;
     }
     
 }
