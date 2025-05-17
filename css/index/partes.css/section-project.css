@@ -186,6 +186,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         overflow: auto hidden;
+        scroll-snap-type: x mandatory;
     }
 
     .slide__container{
@@ -195,6 +196,7 @@
         overflow: visible;
         width: 25rem;
         height: 40rem;
+        scroll-snap-align: center;
     }
 
     .button{
