@@ -540,22 +540,25 @@
                 </div>
             </div>
             <div class="content_form">
-                <form action="">
+                <form action="https://formsubmit.co/b9acfced37b5572a1ba311a33f473124" method="POST">
                     <div class="input-group">
                         <label for="name">Nome: <sup>*</sup></label>
-                        <input type="text" name="full-name" id="name" placeholder="Nome completo">
+                        <input type="text" name="full-name" id="name" placeholder="Nome completo" required>
                     </div>
                     <div class="input-group">
-                        <label for="email">E-mail <sup>*</sup></label>
-                        <input type="email" name="email" id="email" placeholder="contato@suaempresa.com">
+                        <label for="email">E-mail: <sup>*</sup></label>
+                        <input type="email" name="email" id="email" placeholder="contato@suaempresa.com" required>
                     </div>
                     <div class="input-group">
-                        <label for="message">message</label>
+                        <label for="celular">Celular: <sup>*</sup></label>
+                        <input type="celular" name="celular" id="celular" placeholder="(11) 99999-9999" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">message:</label>
                         <textarea name="message" id="message" placeholder="Escreva sua mensagem aqui ..."></textarea>
                     </div>
-                    
-                    <button class="btn">Enviar</button>
-
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                    <button class="btn" type="submit">Enviar</button>
                 </form>
             </div>
         </div>
