@@ -78,7 +78,7 @@ form button{
     margin-top: 2rem;
 }
 
-@media (max-width: 480px){
+@media (max-width: 800px){
     .contact__section{
         width: 100%;
     }

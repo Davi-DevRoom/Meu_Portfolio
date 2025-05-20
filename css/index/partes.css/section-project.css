@@ -167,7 +167,7 @@
     font-weight: 400px;
 }
 /* FIM GALLERY PROJECTS */
-@media (max-width: 480px){
+@media (max-width: 800px){
     .project__section .index{
         position: absolute;
         left: 0rem;

@@ -96,7 +96,7 @@
 }
 /* FIM CONTAINER EDUCATION */
 
-@media (max-width: 480px){
+@media (max-width: 800px){
     .education__section{
         width: 40rem;
         gap: 1rem;

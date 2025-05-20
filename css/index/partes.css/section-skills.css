@@ -112,9 +112,7 @@
 }
 /* FIM SKILLS ADDITIONAL */
 
-
-
-@media (max-width: 480px){
+@media (max-width: 800px){
     .skills__section{
         width: 100%;
         display: flex;

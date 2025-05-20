@@ -137,7 +137,24 @@
 /* FIM ABOUT CONTAINER */
 
 
-@media (max-width: 480px){
+@media(max-width: 1240px){
+    .about__section{
+        width: 100vw;
+        margin-top: 10rem;
+    }
+
+    .about__container{
+        gap: 0rem;
+    }
+
+   
+    .image__about img{
+        width: 250px;
+    }
+  
+}
+
+@media (max-width: 800px){
     .about__section{
         width: 100vw;
         margin-top: 10rem;
