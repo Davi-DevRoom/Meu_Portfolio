@@ -11,4 +11,9 @@
     color: var(--main-color);
     font-family: 'JHCRasbora';
 }
-  
+
+@media (max-width: 480px){
+    .footer .credit{
+        font-size: 1rem;
+    }
+}

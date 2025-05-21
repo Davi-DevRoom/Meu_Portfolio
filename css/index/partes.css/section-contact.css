@@ -77,3 +77,79 @@ textarea:hover, input:hover {
 form button{
     margin-top: 2rem;
 }
+
+@media (max-width: 480px){
+    .container__contact{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content__contact{
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 80%;
+    }
+
+    .social__media{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .social__media h3{
+        font-size: var(--font-24px);
+        font-weight: 700;
+    }
+
+    .input-group label {
+        display: block;
+        font-size: var(--font-14px);
+        text-transform: uppercase;
+        color: #fff;
+        margin: 12px 0 8px 0;
+        cursor: pointer;
+    }
+
+    .input-group label sup {
+        color: #fc4545;
+        font-size: 12px;
+        top: 0;
+    }
+
+    .input-group textarea, input {
+        width: 30rem;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .input-group textarea:focus, input:focus,
+    textarea:hover, input:hover {
+        border: 2px solid var(--main-color);
+    }
+
+    .input-group textarea{
+        height: 100px;
+        resize: none;
+    }
+
+    form button{
+        margin-top: 2rem;
+    }
+    form .btn{
+        padding: 2.45rem 5.12rem;
+        width: 30rem;
+        border-radius: 4rem;
+        font-size: 1.5rem;
+    }
+}

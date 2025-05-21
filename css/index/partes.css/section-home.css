@@ -211,7 +211,7 @@
 
 @media (max-width: 480px){
     .home__section{
-        width: 100vw;
+        width: 45rem;
         display: flex;
         align-items: center;
         justify-content: center;

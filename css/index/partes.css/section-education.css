@@ -95,3 +95,36 @@
     color: var(--font-cl-gray);
 }
 /* FIM CONTAINER EDUCATION */
+
+@media (max-width: 480px){
+    
+    .education__section{
+        width: 40rem;
+        gap: 1rem;
+    }
+
+    .container__education{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .education__section .index{
+        position: relative;
+        top: -1rem;
+        right: 0;
+        z-index: 1;
+    }
+
+    .content__education{
+        display: flex;
+        margin-left: -5rem;
+    }
+
+    .course__content::before{
+        left: -3px;
+    }
+    
+}

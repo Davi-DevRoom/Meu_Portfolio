@@ -171,10 +171,10 @@ button::-moz-focus-inner,
         font-size: 50%;
     }
 
-   body{
-    margin: 2px 2px;
-   }
-    
-
+    body{
+        margin: 4px 4px;
+        overflow-x: hidden; 
+    }
+        
 }
 
