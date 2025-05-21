@@ -221,6 +221,7 @@
 @media (max-width: 800px){
     .home__section{
         width: 100%;
+        margin-bottom: 2.5rem;
     }
 
     /* HOME SECTION*/
