@@ -1,5 +1,6 @@
 .skills__section{
     margin-top: 5rem;
+    animation: slideIn .4s ease-in-out forwards;
 }
 
 .skills__section h2{

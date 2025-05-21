@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Davi_DevRoom">
+    <script>
+    document.documentElement.className += ' JS';
+    </script>
     <!-- FAVICON -->
     <link rel="shortcut icon" href="assets/favicon_io/favicon.ico" type="image/x-icon">
     <!-- CSS -->
@@ -14,16 +17,29 @@
     <title>Davi_DevRoom</title>
 </head>
 <body>
-    <nav class="navbar">
+    <header class="header">
 
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre Mim</a></li>
-            <li><a href="#project">Projetos</a></li>
-            <li><a href="#skills">Hard Skills</a></li>
-            <li><a href="#education">Formação e certificações</a></li>
-        </ul>
-    </nav>
+        <nav class="navbar hidden" id="mobile-menu">
+
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#skills">Hard Skills</a></li>
+                <li><a href="#education">Formação e certificações</a></li>
+            </ul>
+            
+        </nav>
+
+        <button class="btn-menu" id="mobile-button">
+            <span class="spans-line">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </button>
+
+    </header>
     
     <section class="home__section" id="#home">
 
@@ -132,7 +148,7 @@
 
     </section>
 
-    <section class="about__section" id="about">
+    <section class="about__section" id="about" data-anime="scroll">
 
         <div class="index">
             <div>
@@ -190,7 +206,7 @@
        
     </section>
 
-    <section class="project__section" id="project">
+    <section class="project__section" id="project" data-anime="scroll">
 
         <div class="index">
 
@@ -370,7 +386,7 @@
 
     </section>
 
-    <section class="skills__section" id="skills">
+    <section class="skills__section" id="skills" data-anime="scroll">
         <h2>HARD SKILLS</h2>
 
         <div class="container__sect-skills">
@@ -435,7 +451,7 @@
 
     </section>
 
-    <section class="education__section" id="education">
+    <section class="education__section" id="education" data-anime="scroll">
         <h2>FORMAÇÃO E CERTIFICADOS</h2>
         
         <div class="index">
@@ -521,7 +537,7 @@
 
     </section>
 
-    <section class="contact__section" id="contact">
+    <section class="contact__section" id="contact" data-anime="scroll">
 
 
         <div class="container__contact">
@@ -570,7 +586,7 @@
         </div>
     </section>
 
-    <script src="./JS/"></script>
+    <script src="./JS/script.js"></script>
         
 </body>
 </html>
