@@ -16,7 +16,7 @@
 /* PROJECTS SECTION */
 .project__section{
     width: 90.6rem;
-    height: 43.7rem;
+    height: 50.7rem;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -26,7 +26,7 @@
 
 /* GALLERY PROJECTS */
 .gallery__projects{
-    height: 38.7rem;
+    height: 43.7rem;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
@@ -40,7 +40,7 @@
     align-items: start;
     overflow: hidden;
     width: 6rem;
-    height: 40rem;
+    height: 43rem;
     background: var(--bg-section);
     padding: 1.25rem;
     gap: 2.5rem;
@@ -55,6 +55,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: start;
+    gap: 2rem;
 }
 
 .slide__container:after{
@@ -150,7 +151,7 @@
 .content__project p{
     font-size: 0.87rem;
     font-weight: 400;
-    height: 95px;
+    height: 100%;
 }
 
 
@@ -159,7 +160,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2.5rem;
 }
 
 .button a{
@@ -181,8 +181,8 @@
     }
 
     .gallery__projects{
-        margin-top: 15rem;
-        height: 40.7rem;
+        margin-top: 20rem;
+        height: 45.7rem;
         flex-direction: column;
         flex-wrap: wrap;
         overflow: auto hidden;
@@ -195,11 +195,8 @@
         align-items: start;
         overflow: visible;
         width: 25rem;
-        height: 40rem;
+        height: 43rem;
         scroll-snap-align: center;
     }
 
-    .button{
-        margin-top: -4rem;
-    }
 }
